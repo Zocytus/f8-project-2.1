@@ -1,3 +1,16 @@
-<svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4C0 1.79086 1.79086 0 4 0H34C35.1046 0 36 0.895431 36 2V38C36 39.1046 35.1046 40 34 40H4C1.79086 40 0 38.2091 0 36V4Z" fill="#FF8282"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ff8282;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m0,4C0,1.79,1.79,0,4,0h30c1.1,0,2,.9,2,2v36c0,1.1-.9,2-2,2H4c-2.21,0-4-1.79-4-4V4Z"/>
+  <rect class="cls-1" x="4" y="26" width="28" height="4" rx="2" ry="2"/>
 </svg>
