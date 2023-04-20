@@ -19,11 +19,13 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header" id="Home">
+    <header class="header">
       <div class="main-content">
         <div class="body">
           <div class="header-logo">
-            <img src="./assets/img/icon/Logo.svg" alt="Logo" class="logo" />
+            <a href="#home"
+              ><img src="./assets/img/icon/Logo.svg" alt="Logo" class="logo"
+            /></a>
           </div>
           <ul class="header-list">
             <li class="header-item">
@@ -50,42 +52,323 @@
       </div>
     </header>
     <!-- Hero -->
-    <main class="main-content">
-      <div class="hero">
-        <div class="hero-right">
-          <p class="title">😎 EASY LEARNING PLATFORM</p>
-          <h1 class="heading">Words learner come here.</h1>
-          <p class="desc">
-            Build skills with courses, certificates, and get online knowledge
-            from our <span>world-class</span> platform.
-          </p>
-          <div class="cta-hero">
-            <a href="#!" class="btn hero-btn">Get Started</a>
-            <div class="play-btn">
-              <a href="#!"
-                ><img src="./assets/img/icon/Playsvg.svg" alt="play"
-              /></a>
+    <main>
+      <div class="main-content">
+        <div class="hero" id="home">
+          <div class="hero-right">
+            <p class="title">😎 EASY LEARNING PLATFORM</p>
+            <h1 class="heading">Words learner come here.</h1>
+            <p class="desc">
+              Build skills with courses, certificates, and get online knowledge
+              from our <span>world-class</span> platform.
+            </p>
+            <div class="cta-hero">
+              <a href="#!" class="btn hero-btn">Get Started</a>
+              <div class="play-btn">
+                <a href="#!"
+                  ><img src="./assets/img/icon/Playsvg.svg" alt="play"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-left">
+            <div class="hero-img">
+              <img src="./assets/img/avatar.jpg" alt="avatar" />
+            </div>
+            <div class="hero-courser">
+              <img src="./assets/img/icon/Book.svg" alt="book" />
+              <p class="title-courser">Courses 1000+</p>
+            </div>
+            <div class="hero-schedules">
+              <img src="./assets/img/icon/Card.svg" alt="card" />
+            </div>
+            <div class="hero-active">
+              <img src="./assets/img/icon/Card2.svg" alt="card2" />
             </div>
           </div>
         </div>
-        <div class="hero-left">
-          <div class="hero-img">
-            <img src="./assets/img/avatar.jpg" alt="avatar" />
+      </div>
+      <!-- Feature -->
+      <div class="main-content">
+        <div class="feature" id="features">
+          <div class="feature__top">
+            <p class="title">F E A T U R E S</p>
+            <h1 class="heading">
+              We are providing suitable features for students.
+            </h1>
+            <div class="desc">
+              Read our awesome feature that is absolutely suit for you. Explore
+              the feature and know the best.
+            </div>
           </div>
-          <div class="hero-courser">
-            <img src="./assets/img/icon/Book.svg" alt="book" />
-            <p class="title-courser">Courses 1000+</p>
+          <div class="section">
+            <div class="section__item">
+              <img
+                src="./assets/img/icon/Monitor.svg"
+                alt="Monitor"
+                class="section__img"
+              />
+              <h2 class="section__title">Live Class</h2>
+              <p class="section__desc">
+                We are providing live classes with the best teacher for you
+              </p>
+            </div>
+            <div class="section__item">
+              <img
+                src="./assets/img/icon/Icon.svg"
+                alt="Monitor"
+                class="section__img"
+              />
+              <h2 class="section__title">Discuss</h2>
+              <p class="section__desc">
+                Conversation with teachers or another students about task or any
+                other thing
+              </p>
+            </div>
+            <div class="section__item">
+              <img
+                src="./assets/img/icon/Bref.svg"
+                alt="Monitor"
+                class="section__img"
+              />
+              <h2 class="section__title">Task</h2>
+              <p class="section__desc">
+                We give every of our students task for gathering knowledge at
+                home
+              </p>
+            </div>
           </div>
-          <div class="hero-schedules">
-            <p class="title-schedules">Schedules</p>
-            <img src="" alt="" />
+        </div>
+      </div>
+      <!-- Course -->
+      <div class="main-content">
+        <div class="course" id="pricing">
+          <div class="course__heading">
+            <p class="heading__title">C O U R S E S</p>
+            <h1 class="heading__content">Popular Courses</h1>
+            <div class="heading__bottom">
+              <p class="bottom__desc">
+                Check out our most popular courses that suit for you. Here you
+                can find your favorite one.
+              </p>
+              <a href="#!" class="bottom__link">View All Courses</a>
+            </div>
           </div>
-          <div class="hero-active">
-            <p class="title-active">Our Active Students</p>
-            <img src="" alt="" />
+          <div class="course__container">
+            <div class="course__card">
+              <div class="card__img">
+                <img
+                  src="./assets/img/course-1.jpg"
+                  alt="course"
+                  class="images"
+                />
+                <div class="card__desc">
+                  <h2 class="desc__tittle">Web Design</h2>
+                  <p class="desc__count">Fee <strong>$200</strong></p>
+                  <p class="desc__desc">Web design basic to higher level</p>
+                  <div class="times">
+                    <div class="times__dot"></div>
+                    <p class="desc__times">40 Classes</p>
+                    <div class="times__dot"></div>
+                    <p class="desc__times">3 Months</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course__card">
+              <div class="card__img">
+                <img
+                  src="./assets/img/course-2.jpg"
+                  alt="course"
+                  class="images"
+                />
+                <div class="card__desc">
+                  <h2 class="desc__tittle">Web Development</h2>
+                  <p class="desc__count">Fee <strong>$250</strong></p>
+                  <p class="desc__desc">
+                    Web development basic to higher level
+                  </p>
+                  <div class="times">
+                    <div class="times__dot"></div>
+                    <p class="desc__times">30 Classes</p>
+                    <div class="times__dot"></div>
+                    <p class="desc__times">3 Months</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course__card">
+              <div class="card__img">
+                <img
+                  src="./assets/img/course-3.jpg"
+                  alt="course"
+                  class="images"
+                />
+                <div class="card__desc">
+                  <h2 class="desc__tittle">UI/UX Design</h2>
+                  <p class="desc__count">Fee <strong>$350</strong></p>
+                  <p class="desc__desc">UI/UX design basic to higer level</p>
+                  <div class="times">
+                    <div class="times__dot"></div>
+                    <p class="desc__times">50 Classes</p>
+                    <div class="times__dot"></div>
+                    <p class="desc__times">4 Months</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="course__popular">
+            <div class="popular__title">
+              <h1 class="title__heading">100+</h1>
+              <h1 class="title__heading">500+</h1>
+              <h1 class="title__heading">1M+</h1>
+            </div>
+            <div class="popular__desc">
+              <p class="popular__content">Popular Courses</p>
+              <p class="popular__content">Skilled Trainer</p>
+              <p class="popular__content">Student Learning</p>
+            </div>
+          </div>
+          <div class="feedback-container" id="about">
+            <div class="right-site">
+              <img
+                src="./assets/img/icon/Union.svg"
+                alt="union"
+                class="icon-top"
+              />
+              <p class="feedback__decs">
+                “They are the best people. And this is the suitable platform to
+                learn from distance.”
+              </p>
+              <p class="feedback__people">
+                Ben Flakes, <strong>student.</strong>
+              </p>
+              <div class="cta--feedback">
+                <a href="#!" class="feedback__link">
+                  <img
+                    src="./assets/img/icon/Vector 45.svg"
+                    alt="union"
+                    class="link__icon"
+                  />
+                </a>
+                <a href="#!" class="feedback__link">
+                  <img
+                    src="./assets/img/icon/Vector 44.svg"
+                    alt="union"
+                    class="link__icon"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="left-site">
+              <img src="./assets/img/icon/people-group.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-container">
+        <div class="main-content">
+          <div class="box-content">
+            <div class="ready">
+              <h1 class="ready__title">Ready to Get Admit</h1>
+              <p class="ready__decs">
+                Create your account and Boost your Career.
+              </p>
+            </div>
+            <div class="btn">Get Started</div>
           </div>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="footer" id="contact">
+        <div class="main-content">
+          <div class="footer__content">
+            <div class="logo__footer">
+              <img src="./assets/img/icon/Logo.svg" alt="" />
+            </div>
+            <ul class="footer__list">
+              <li class="header__list">Company</li>
+              <li>About</li>
+              <li>Careers</li>
+              <li>Press</li>
+            </ul>
+            <ul class="footer__list">
+              <li class="header__list">Community</li>
+              <li>Team Plans</li>
+              <li>Blog</li>
+              <li>Students</li>
+              <li>Scholarships</li>
+            </ul>
+            <ul class="footer__list">
+              <li class="header__list">Teaching</li>
+              <li>Become a teacher</li>
+              <li>Teaching academy</li>
+            </ul>
+            <ul class="footer__list">
+              <li class="header__list">Be social</li>
+              <li>
+                <div class="footer__icon">
+                  <img src="./assets/img/icon/twier.svg" alt="" />
+                </div>
+                <a href="#!">Twitter</a>
+              </li>
+              <li>
+                <div class="footer__icon">
+                  <img src="./assets/img/icon/face.svg" alt="" />
+                </div>
+                <a href="#!">Facebook</a>
+              </li>
+              <li>
+                <div class="footer__icon">
+                  <img src="./assets/img/icon/insta.svg" alt="" />
+                </div>
+                <a href="#!">Instagram</a>
+              </li>
+              <li>
+                <div class="footer__icon">
+                  <img src="./assets/img/icon/linbked.svg" alt="" />
+                </div>
+                <a href="#!">Linkedin</a>
+              </li>
+            </ul>
+          </div>
+          <p class="copy">
+            © Copyright 2020 by Mayan Ahmed. All right reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Smooth Scrolling -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
   </body>
 </html>
